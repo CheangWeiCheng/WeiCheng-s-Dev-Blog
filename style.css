@@ -1,0 +1,131 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between; /* Space between the logo and nav */
+    align-items: center; /* Align items vertically centered */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px; /* Adjust the logo size */
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Make the list horizontal */
+}
+
+nav ul li {
+    margin: 0 15px; /* Horizontal space between menu items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Flex container for image and text */
+.about-content {
+    display: flex;
+    justify-content: flex-start; /* Ensure they stay aligned from left to right */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+/* Image styling */
+.team {
+    flex: 1;
+    margin-right: 20px; /* Space between image and text */
+}
+
+.team img {
+    max-height: 450px; /* Limit the height to 400px */
+    width: auto; /* Adjust width automatically to maintain aspect ratio */
+}
+
+/* Text styling */
+.about-text {
+    flex: 2; /* Give more space to the text */
+    min-width: 200px;
+}
+
+.about-text p {
+    margin-bottom: 20px;  /* Space between paragraphs */
+    line-height: 1.6;     /* Improve readability */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Typography */
+h2, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+p, li {
+    margin-bottom: 20px;
+}
+
+/* Mobile-friendly improvements */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;  /* Stack the content vertically on small screens */
+        text-align: center;      /* Center text */
+    }
+
+    .team img {
+        max-width: 80%;  /* Limit image size on mobile */
+    }
+
+    .about-text {
+        padding-left: 0; /* Remove left padding on smaller screens */
+    }
+}
