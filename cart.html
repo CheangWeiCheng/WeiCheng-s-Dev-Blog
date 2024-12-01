@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - DUO Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Image.png" alt="Logo" height="50">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">
+            <img src="shoppingcart.png" alt="Shopping Cart" class="cart-icon">
+          </a>
+          <span class="cart-count">0</span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cart">
+    <h2>YOUR SHOPPING CART</h2>
+    <div id="cart-items"></div>
+    <div id="total-price"></div>
+    <button id="checkoutBtn">Proceed to Checkout</button>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="demo"></span> DUO Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

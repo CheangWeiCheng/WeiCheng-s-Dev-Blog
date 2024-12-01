@@ -1,50 +1,91 @@
 # WeiCheng-s-Dev-Blog
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
+DUO is a STEAMUnity project that my friends and I have been working on. This website serves as a store where users can purchase the two parts of the DUO product: a wristwatch and a doorbell. The website allows users to add products to their cart and proceed to checkout to purchase the items, with the option to clear the cart upon completion.
 
-Essentially, this part is your sales pitch.
+The purpose of this website is to provide both information about DUO and a functional shopping system. With its clean and simple design, the website ensures users can easily navigate and access various sections, whether it be information, products, or the cart.
 
 Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Target Audience: The primary users of this website are customers looking to purchase DUO products, which include both the wristwatch and doorbell. This website caters to both tech enthusiasts and casual users who value simplicity and convenience.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+What Users Want to Achieve:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+Users want to learn about DUO products and their features.
+Users want to add these products to their cart and complete their purchase with ease.
+Users expect a straightforward, user-friendly experience while navigating the website.
+
+How This Project Helps Users Achieve These Goals:
+
+The website provides clear, concise information about each product.
+A smooth shopping experience is created with easy cart functionality and a responsive checkout process.
+A minimal and clean design reduces clutter, ensuring users can focus on the key actions: exploring, adding to cart, and checking out.
+
+User Stories
+As a shopper, I want to view detailed information about the DUO wristwatch and doorbell, so I can decide which product to purchase.
+As a shopper, I want to add products to my cart, so I can purchase them at once.
+As a shopper, I want to be able to increase or decrease the quantity of items in my cart, so I can buy the correct number of products.
+As a shopper, I want to be able to checkout and complete my purchase securely, so I can receive my product.
+
+Wireframes and Mockups
+Link to Figma Wireframe (replace with your actual link)
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Existing Features:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Product Pages: Users can view detailed information about the DUO wristwatch and doorbell, including product images and the backstory behind their creation.
+Shopping Cart: Users can add items to their cart, view the cart, and adjust quantities.
+Checkout: The checkout button allows users to proceed to a purchase screen where they can finalize their orders.
 
-Features Left to Implement
-Another feature idea
+Features Left to Implement:
+
+User Account System: Allow users to create accounts, save order history, and track shipments.
+Payment Gateway Integration: Securely integrate payment methods such as credit cards or PayPal.
+Product Reviews: Allow users to leave reviews for products they have purchased.
+
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+HTML & CSS
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Used for the basic structure and styling of the website. HTML5 and CSS3 ensure responsive layouts across all devices.
+
+JavaScript
+
+JavaScript enables dynamic interactions like adding items to the cart, updating the cart count, and managing product quantities.
+
+Local Storage
+
+LocalStorage is used to save the user's cart data locally, ensuring that the cart is persistent across sessions.
+
+Figma
+
+Used for wireframing and creating visual prototypes of the website before development.
+
 Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Testing Scenarios:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Adding Items to Cart:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Go to the product page and click the "Add to Cart" button.
+Verify that the cart count increases accordingly.
+Verify that the cart page displays the correct product.
+Cart Functionality:
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Go to the cart page and check if the items are displayed with their correct details (name, price, quantity).
+Test that increasing/decreasing the quantity works correctly.
+Test that clicking "Proceed to Checkout" empties the cart (for this project, it’s a simple simulation without real transactions).
+
+Responsive Testing:
+
+Ensure the website displays correctly across all device sizes, from desktops to mobile devices.
+Known Bugs/Issues:
+
+Some mobile users reported layout issues on smaller screens. A fix is in progress for better spacing and to avoid content overlapping.
+Incomplete checkout process: Currently, the checkout button does not lead to a payment gateway.
 
 Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+
+Content:
+The text for the product descriptions, the about us section, and the FAQ was written using ChatGPT.
+
+Media:
+All images were provided by the DUO product team.
+
+Acknowledgements:
+I received inspiration for this project from e-commerce websites that use clean, simple interfaces, such as Apple and Amazon.

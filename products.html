@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - My Website</title>
+  <title>Products - DUO Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,13 +18,40 @@
         <li><a href="products.html">Products</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">
+            <img src="shoppingcart.png" alt="Shopping Cart" class="cart-icon">
+          </a>
+          <span class="cart-count">0</span>
+        </li>
       </ul>
     </nav>
   </header>
 
   <section id="products">
     <h2>PRODUCTS</h2>
-    <p>This is the product page content.</p>
+    <section class="productContainer">
+      <div class="flex-item">
+        <h3>DUO Wristwatch</h3>
+        <div class="flex-img">
+          <img class="image" src="wristwatch.png" alt="DUO Wristwatch">
+        </div>
+        <div class="flex-info">
+          <p>From S$100.00</p>
+        </div>
+        <button class="buy-btn" data-product="DUO Wristwatch" data-price="100.00">Buy NOW!</button>
+      </div>
+
+      <div class="flex-item">
+        <h3>DUO Doorbell</h3>
+        <div class="flex-img">
+          <img class="image" src="doorbell.jpg" alt="DUO Doorbell">
+        </div>
+        <div class="flex-info">
+          <p>From S$80.00</p>
+        </div>
+        <button class="buy-btn" data-product="DUO Doorbell" data-price="80.00">Buy NOW!</button>
+      </div>
+    </section>
   </section>
 
   <footer>

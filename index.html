@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - My Website</title>
+  <title>Home - DUO Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,16 +18,35 @@
         <li><a href="products.html">Products</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="cart.html">
+            <img src="shoppingcart.png" alt="Shopping Cart" class="cart-icon">
+          </a>
+          <span class="cart-count">0</span>
+        </li>
       </ul>
     </nav>
   </header>
 
   <section id="home">
     <h2>HOME</h2>
-    <p>This is the homepage content.</p>
-    <h3>Customer Testimonials</h3>
-    <h4>"Perfect for my home office!"<br>"I work from home and sometimes I can't hear the doorbell. The Duo Wristwatch is the perfect solution! It alerts me right on my wrist without interrupting my workflow. I can focus, and still know when someone's at the door."<br>– James T., San Francisco, CA</h4>
-    <h4>"No more missed visitors!"<br>"As seniors, we don’t always hear the doorbell, and it was frustrating missing deliveries or guests. Now, thanks to DUO Doorbell and DUO Wristwatch, we never miss anyone, and it gives us peace of mind."<br>– Helen B., Sarasota, FL</h4>
+    <div class="container">
+      <div class="textbox">
+        <h3>Description</h3>
+        <p>DUO Wristwatch vibrates when DUO Doorbell is rung and can send a message to the doorbell, allowing for two-way communication.</p>
+        <button class="buy-btn" data-product="DUO Wristwatch" data-price="100.00">Buy NOW!</button>
+      </div>
+      <img class="homepageimage" src="wristwatch.png" alt="HomepageImage">
+    </div>
+
+    <div class="testimonials">
+      <h3>Customer Testimonials</h3>
+      <div class="testimonial">
+        <p>"Perfect for my home office!"<br>"I work from home and sometimes I can't hear the doorbell. The Duo Wristwatch is the perfect solution! It alerts me right on my wrist without interrupting my workflow. I can focus, and still know when someone's at the door."<br>– James T., San Francisco, CA</p>
+      </div>
+      <div class="testimonial">
+        <p>"No more missed visitors!"<br>"As seniors, we don’t always hear the doorbell, and it was frustrating missing deliveries or guests. Now, thanks to DUO Doorbell and DUO Wristwatch, we never miss anyone, and it gives us peace of mind."<br>– Helen B., Sarasota, FL</p>
+      </div>
+    </div>
   </section>
 
   <footer>
